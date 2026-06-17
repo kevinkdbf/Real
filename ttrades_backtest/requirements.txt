@@ -1,0 +1,15 @@
+# Core data / numerics
+pandas>=2.0
+numpy>=1.24
+pyyaml>=6.0
+
+# Charts
+matplotlib>=3.7
+
+# Source-file (PDF) extraction — only needed if your research files are PDFs.
+# The data loader and engine do NOT require these.
+pymupdf>=1.23      # import fitz
+pdfplumber>=0.10   # fallback extractor
+
+# Optional: faster CSV/parquet IO for very large 1-minute datasets
+pyarrow>=12.0
